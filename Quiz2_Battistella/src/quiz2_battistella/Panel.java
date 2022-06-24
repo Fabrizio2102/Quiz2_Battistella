@@ -129,7 +129,6 @@ public class Panel extends javax.swing.JFrame {
         String valores = "";
         valores = arbolito.preorden1(arbolito.getRoot(), valores);
         this.pantalla.setText(valores);
-        arbolito.preorden(arbolito.getRoot());
     }//GEN-LAST:event_printActionPerformed
 
     private void borrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_borrarActionPerformed

@@ -50,14 +50,6 @@ public class ArbolBin {
         aux.setHijoD(hijoDer);
     }
     
-    public void preorden(NodoBin root){
-        if(root != null){
-            System.out.print(root.getElement() + ", ");
-            preorden(root.getHijoI());
-            preorden(root.getHijoD());
-        }
-    }
-    
     public String preorden1(NodoBin root, String aiua){
         String aux1 = "";
         String aux2 = "";
